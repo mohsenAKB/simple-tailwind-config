@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": " tailwindcss -i ./assets/css/style.css -o ./prodction/assets/style.css",
+    "watch": " tailwindcss -i ./assets/css/style.css -o ./prodction/assets/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsenAKB/simple-tailwind-config.git"
+  },
+  "keywords": [
+    "tailwind-config"
+  ],
+  "author": "mohsenAkbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsenAKB/simple-tailwind-config/issues"
+  },
+  "homepage": "https://github.com/mohsenAKB/simple-tailwind-config#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "description": ""
+}
